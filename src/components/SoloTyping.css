@@ -1,0 +1,111 @@
+.solotyping-container {
+  padding-top: 10vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-container{
+  font-family: Overpass;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.text-container textarea {
+  min-height: 150px;
+  border: 0px;
+}
+
+.bottom-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 3vh;
+
+}
+
+.bottom-container .infos {
+  margin-top: 0px;
+}
+
+.bottom-container .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.bottom-container p {
+  margin-top: 0px;
+  font-size: 2.5vh;
+  color:#283845;
+}
+
+.bottom-container button {
+  display: block;
+  padding: 12px 28px;
+  margin: 6px 20px 6px 0px;
+  border: 0px;
+  font-size: 2vh;
+  background-color: #AB2346;
+  color: white;
+}
+
+.bottom-container span {
+  font-weight: bold;
+  display: block;
+  padding: 12px 28px;
+  margin: 6px 20px 6px 0px;
+  border: 0px;
+  font-size: 2vh;
+  color: #283845;
+}
+
+.actual {
+  background-color: lightgreen;
+}
+
+.good {
+  color: #B8B08D;
+}
+
+.todo {
+  color: black;
+}
+
+.scores {
+  margin-top: 5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.scores table {
+  margin-bottom: 3vh;
+  width: 100%;
+  color: white;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.scores table tr:nth-child(odd) {
+  background-color: #202C39;
+}
+
+.scores table tr:nth-child(even) {
+  background-color: #435365;
+}
+
+.scores table tr {
+  border: none;
+  height: 5vh;
+  font-size: 2vh;
+}
+
+.scores h3 {
+  text-align: left;
+}
+
+.delete-scores {
+  cursor: pointer;
+  color: red;
+}
